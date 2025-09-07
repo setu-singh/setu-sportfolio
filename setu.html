@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setu portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: gray;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            background-color: black
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: wheat
+        }
+
+        main hr {
+            border: 0;
+            background-color: bisque;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .leftSection .btn{
+             margin: 30px 0;
+            padding: 12px;
+            background: wheat;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            height: 80%;
+        }
+
+        .purple {
+            color: red;
+        }
+
+        .text-gray {
+            color: black;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 15vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -28px;
+            left: -15px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            width: 170px;
+            color: black;
+            font-size: 15px;
+
+        }
+
+        footer {
+            background-color: rgb(124, 121, 121);
+            height: 230px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 185px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 230px;
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: black;
+            padding: 12px 0;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SETU PORTOFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">content Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My Name is <span class="purple">Setu</span>
+                <div>and I am a Web Developer</div>
+            </div>
+            <div class="buttons">
+                <button class="bnt">Download Resume</button>
+                <button class="bnt">Github</button>
+            </div>
+            <div class="rightSection">
+                <img src="devloper.png">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done So far</span>
+            <h1>Work Experince</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png">
+                    <div class="vertical-title">
+                        HTML DEVELOPER (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut pariatur odio fugiat
+                        tempora cum, inventore, enim quos nesciunt autem natus, nulla animi aliquid doloribus minima.
+                        Nostrum voluptatem omnis asperiores.
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="css.png">
+                        <div class="vertical-title">
+                            CSS DEVELOPER (2020-2021)
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut pariatur odio
+                            fugiat tempora cum, inventore, enim quos nesciunt autem natus, nulla animi aliquid doloribus
+                            minima. Nostrum voluptatem omnis asperiores.
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="vertical">
+                            <img class="image-top" src="js.png">
+                            <div class="vertical-title">
+                                JAVASCRIPT DEVELOPER (2021-2022)
+                            </div>
+                            <div class="vertical-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut pariatur odio
+                                fugiat tempora cum, inventore, enim quos nesciunt autem natus, nulla animi aliquid
+                                doloribus minima. Nostrum voluptatem omnis asperiores.
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="vertical">
+                                <img class="image-top" src="Node.js.png">
+                                <div class="vertical-title">
+                                    NODE.JS DEVELOPER (2022-2023)
+                                </div>
+                                <div class="vertical-desc">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut pariatur
+                                    odio fugiat tempora cum, inventore, enim quos nesciunt autem natus, nulla animi
+                                    aliquid doloribus minima. Nostrum voluptatem omnis asperiores.
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="vertical">
+                                    <img class="image-top" src="React.png">
+                                    <div class="vertical-title">
+                                        REACT.JS DEVELOPER (2023-2024)
+                                    </div>
+                                    <div class="vertical-desc">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut
+                                        pariatur odio fugiat tempora cum, inventore, enim quos nesciunt autem natus,
+                                        nulla animi aliquid doloribus minima. Nostrum voluptatem omnis asperiores.
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <div class="vertical">
+                                        <img class="image-top" src="Python.png">
+                                        <div class="vertical-title">
+                                            PYTHON DEVELOPER (2024-2025)
+                                        </div>
+                                        <div class="vertical-desc">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ut
+                                            pariatur odio fugiat tempora cum, inventore, enim quos nesciunt autem natus,
+                                            nulla animi aliquid doloribus minima. Nostrum voluptatem omnis asperiores.
+                                        </div>
+                                    </div>
+
+                                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Setu's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+
+                    <li>About:- I am Setu Raj Singh , from Galgotias university.(India)</li>
+
+                    <li>Email:-www.setusingh227@gmail.com
+                        phone no:- 9546371259</li>
+
+                    <li>Services:- Web devlopment , data entry , vedio Editing</li>
+                </ul>
+                
+
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            www.setusportfolio.com | All rights reseved
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
